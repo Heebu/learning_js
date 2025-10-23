@@ -1,4 +1,4 @@
-# Phase 6: Object-Oriented JavaScript (OOP)
+# Phase 4: Object-Oriented JavaScript (OOP)
 
 ## 🧱 Introduction to OOP in JavaScript
 

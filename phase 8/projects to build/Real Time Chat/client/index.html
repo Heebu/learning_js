@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Real-time Chat</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="chat-app">
+    <header class="chat-header">
+        <h1>Simple Chat</h1>
+        <div id="status" class="status">Disconnected</div>
+    </header>
+
+    <main class="chat-main">
+        <ul id="messages" class="messages"></ul>
+    </main>
+
+    <footer class="chat-footer">
+        <input id="username" type="text" placeholder="Your name" maxlength="32" />
+        <input id="messageInput" type="text" placeholder="Type a message..." maxlength="1000" />
+        <button id="sendBtn">Send</button>
+        <button id="connectBtn">Connect</button>
+    </footer>
+</div>
+
+<script src="client.js"></script>
+</body>
+</html>
